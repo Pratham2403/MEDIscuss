@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Express_Discuss - See our thoughts, questions and ideas.</title>
+  <meta name="title" content="Express_Discuss - See our thoughts, questions and ideas.">
+  <meta name="description" content="This is a blog html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header section" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.png" width="129" height="40" alt="Blogy logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover:underline" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover:underline" data-nav-link>Recent Post</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover:underline" data-nav-link>Membership</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="wrapper">
+
+        <button class="search-btn" aria-label="search" data-search-toggler>
+          <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+
+          <span class="span">Search</span>
+        </button>
+
+        <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+          <span class="span one"></span>
+          <span class="span two"></span>
+          <span class="span three"></span>
+        </button>
+
+        <a href="#" class="btn">Publish New Query</a>
+
+      </div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <!-- 
+    - #SEARCH BAR
+  -->
+
+  <div class="search-bar" data-search-bar>
+
+    <div class="input-wrapper">
+      <input type="search" name="search" placeholder="Search" class="input-field">
+
+      <button class="search-close-btn" aria-label="close search bar" data-search-toggler>
+        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+
+    <p class="search-bar-text">Please enter at least 3 characters</p>
+
+  </div>
+
+  <div class="overlay" data-overlay data-search-toggler></div>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home">
+        <div class="container">
+
+          <h2 class="h1 hero-title">
+            <strong class="strong">MEDIscuss</strong> See our thoughts, questions and ideas.
+          </h2>
+
+          <div class="wrapper">
+
+            <form action="" class="newsletter-form">
+              <input type="email" name="email_address" placeholder="Search Tags" class="email-field">
+
+              <button type="submit" class="btn">Search</button>
+            </form>
+
+            <p class="newsletter-text">
+              Find Latest Tags and Queries
+            </p>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURED POST
+      -->
+
+      <section class="section featured" aria-label="featured post">
+        <div class="container">
+
+          <p class="section-subtitle">
+            Top <strong class="strong">Discussion Forums</strong>
+          </p>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="./assets/images/featured-1.jpg" width="500" height="600" loading="lazy"
+                    alt="New technology is not good or evil in and of itself" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/author-1.jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/author-2.jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Biomedical</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">COVID19</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Symptoms</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Psychophysiological Adaptations to Exercise Training in COVID-19 Patients: A Systematic Review
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Many COVID-19 patients display adverse symptoms, such as reduced physical ability, poor quality of life, and impaired pulmonary function. Therefore, this systematic review is aimed at evaluating the effectiveness of physical exercise on various psychophysiological indicators among COVID-19 patients who may be at any stage of their illness (i.e., critically ill, hospitalized, postdischarge, and recovering).
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="./assets/images/featured-2.jpg" width="500" height="600" loading="lazy"
+                    alt="It’s a new era in design, there are no rules" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/author-3.jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Innovation</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Dentistry</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                        Web of Science-Based Scientometric Assessment of the Importance of Filtered Water in Dentistry
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    The aim of this study was to examine the characteristics of scientific production related to the use of filtered water in the field of dentistry. Material and Methods. A quantitative and descriptive observational study was carried out with a scientometric approach.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="./assets/images/featured-3.jpg" width="500" height="600" loading="lazy"
+                    alt="Perfection has to do with the end product" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/author-4.jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Gestation</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Pregnancy</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Maternity</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Association between Gestational Weight Gain and Maternal and Birth Outcomes in Northern Ghana
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Although inappropriate gestational weight gain is considered closely related to adverse maternal and birth outcomes globally, little evidence was found in low- and middle-income countries. Study Objectives. This study is aimed at identifying the determinants of gestational weight gain and examine the association between gestational weight gain and maternal and birth outcomes in the Northern Region of Ghana.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="./assets/images/featured-4.jpg" width="500" height="600" loading="lazy"
+                    alt="Everyone has a different life story" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/author-5.jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/author-2.jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Genetic</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Polymorphism</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Association between Interleukin-6 Gene Polymorphism (rs1800795 and rs1800796) and Type 2 Diabetes Mellitus in a Ghanaian Population
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    There is no conclusive evidence on the association between interleukin- (IL-) 6 gene polymorphism and type 2 diabetes mellitus (type 2 DM). Thus, this study is aimed at evaluating the role of rs1800795 and rs1800796 polymorphisms in the pathogenesis of type 2 DM among Ghanaians in the Ho Municipality. Materials and Methods. We recruited into this hospital-based case-control study 174 patients with type 2 DM (75 DM alone and 99 with DM+HTN) and 149 healthy individuals between 2018 and 2020.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="./assets/images/featured-5.jpg" width="500" height="600" loading="lazy"
+                    alt="The difference is quality" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/author-6.jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">AI/ML</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Urinalysis</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Assessing Concordance of Results: A Comparative Study of the Manual and Automated Urinalysis Methods
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    An accurate urine analysis is a good indicator of the status of the renal and genitourinary system. However, limited studies have been done on comparing the diagnostic performance of the fully automated analyser and manual urinalysis especially in Ghana. This study evaluated the concordance of results of the fully automated urine analyser (Sysmex UN series) and the manual method urinalysis at the Komfo Anokye Teaching Hospital in Kumasi, Ghana.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="./assets/images/featured-6.jpg" width="500" height="600" loading="lazy"
+                    alt="Problems are not stop signs, they are guidelines" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/author-3.jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Epidemiology</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Celiac Disease</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Epidemiology of Celiac Disease in Western Iran during 2019-2021
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Celiac disease is a growing global public health concern. This epidemiological study is aimed at determining the prevalence of celiac disease in Kermanshah, Western Iran, from 2019 to 2021, as well as the frequency of gastrointestinal and nongastrointestinal manifestations associated with the disease. In this cross-sectional study, the medical records of all patients with a confirmed diagnosis of celiac disease between 2019 and 2021 were reviewed.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #RECENT POST
+      -->
+
+      <section class="section recent" aria-label="recent post">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <h2 class="h2 section-title">
+              Our <strong class="strong">Latest Researches</strong>
+            </h2>
+
+            <div class="top-author">
+              <ul class="avatar-list">
+
+                <li class="avatar-item">
+                  <a href="#" class="avatar large img-holder" style="--width: 100; --height: 100;">
+                    <img src="./assets/images/author-1.jpg" width="100" height="100" alt="top author" class="img-cover">
+                  </a>
+                </li>
+
+                <li class="avatar-item">
+                  <a href="#" class="avatar large img-holder" style="--width: 100; --height: 100;">
+                    <img src="./assets/images/author-2.jpg" width="100" height="100" alt="top author" class="img-cover">
+                  </a>
+                </li>
+
+                <li class="avatar-item">
+                  <a href="#" class="avatar large img-holder" style="--width: 100; --height: 100;">
+                    <img src="./assets/images/author-3.jpg" width="100" height="100" alt="top author" class="img-cover">
+                  </a>
+                </li>
+
+                <li class="avatar-item">
+                  <a href="#" class="avatar large img-holder" style="--width: 100; --height: 100;">
+                    <img src="./assets/images/author-4.jpg" width="100" height="100" alt="top author" class="img-cover">
+                  </a>
+                </li>
+
+                <li class="avatar-item">
+                  <a href="#" class="avatar large img-holder" style="--width: 100; --height: 100;">
+                    <img src="./assets/images/author-5.jpg" width="100" height="100" alt="top author" class="img-cover">
+                  </a>
+                </li>
+
+              </ul>
+
+              <span class="span">Meet our top researchers</span>
+            </div>
+
+          </div>
+
+          <ul class="grid-list">
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="./assets/images/recent-4.jpg" width="550" height="660" loading="lazy"
+                    alt="The trick to getting more done is to have the freedom to roam around" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/author-3.jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Artificial intelligence in periodontology and implantology
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    A comprehensive search was carried out utilizing the databases such as Google Scholar, PubMed, MEDLINE, and Embase, using the keywords “Periodontics AND AI”, “Periodontology AND Artificial Intelligence”, “Periodontology AND neural networks”, and “AI AND periodontal diseases and periodontal therapy”. All the relevant clinical studies, systematic reviews, and meta-analyses were extracted. Only studies published in English were selected. After a detailed review of the abstracts, the most relevant papers related to our topic were included, and any irrelevant articles were excluded.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="./assets/images/recent-5.jpg" width="550" height="660" loading="lazy"
+                    alt="Every day, in every city and town across the country" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/author-1.jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/author-6.jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Hybrid artificial intelligence outcome prediction using features extraction from stress perfusion cardiac magnetic resonance images and electronic health records
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    A retrospective study was performed on patients who had stress perfusion cardiac magnetic resonance (SP-CMR) between 2011 and 2021. The endpoint was all-cause mortality. Convolutional neural network (CNN) was used to extract features from stress perfusion images, and multilayer perceptron (MLP) to extract features from electronic health records (EHRs), both networks were concatenated in a hybrid neural network (HNN) to predict study endpoint. Image CNN was trained to predict study endpoint directly from images. HNN and image CNN were compared with a linear clinical model using area under the curve (AUC), F1 scores, and McNemar’s test.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="./assets/images/recent-6.jpg" width="550" height="660" loading="lazy"
+                    alt="Your voice, your mind, your story, your vision" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="./assets/images/author-6.jpg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Using a machine learning model to risk stratify for the presence of significant liver disease in a primary care population
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Routine demographic and laboratory data was collected on 1,453 patients with risk factors for CLD, including high alcohol consumption, diabetes and obesity, in a community setting in Nottingham (UK) as part of the Scarred Liver project. A total of 87 variables were extracted. Transient elastography (TE) was used to define clinically significant liver fibrosis. The data was split into a training and hold out set. The median age of the cohort was 59, mean body mass index (BMI) 29.7 kg/m2, median TE 5.5 kPa, 49.2% had type 2 diabetes and 20.3% had a TE >8 kPa.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <button class="btn">Load more</button>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #NEWSLETTER
+      -->
+
+      <section class="section newsletter">
+
+        <h2 class="h2 section-title">
+          Subscribe to be a <strong class="strong">Community Member</strong>
+        </h2>
+
+        <form action="" class="newsletter-form">
+          <input type="email" name="email_address" placeholder="email address" required class="email-field">
+
+          <button type="submit" class="btn">Subscribe</button>
+        </form>
+
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top section">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" width="129" height="40" alt="Blogy logo">
+          </a>
+
+          <p class="footer-text">
+            A discussion forum for medical researchers to aid one and everyone!
+          </p>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h5">About</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Style Guide</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Features</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Contact</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">404</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Privacy Policy</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h5">Features</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Upcoming Events</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Blog & News</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Features</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">FAQ Question</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Testimonial</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h5">Membership</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Account</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Membership</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Subscribe</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Tags</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Authors</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="section footer-bottom">
+
+        <p class="copyright">
+          &copy; ExpressHealth 2024. Published by <a href="#" class="copyright-link hover:underline">Voyagers</a>.
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
